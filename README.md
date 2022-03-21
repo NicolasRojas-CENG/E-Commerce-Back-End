@@ -1,61 +1,83 @@
-
-# README Generator  
-Project 7. Due date: 27th of Febuary 2022.
+# E-Commerce Back End (Sequelize)
+Project 11. Due date: 27th of March 2022.
 ## Table of Contents
-  
+
 * [Goal of the Project](#Goal)
 * [Story of the Project](#Story)
 * [Description of the Project](#Description)
 * [Install Instructions](#Installation)
-* [Project License](#License)
 * [Usage Instructions](#Usage)
 * [Criteria For Completion](#Criteria)
 * [Steps For Completion](#Completion)
-* [App Tests](#Tests)
 * [Site/App Preview](#Preview)
-* [Contribution Guidelines](#Contribution)
 * [Questions](#Questions)
 
-  
+
 # <a name="Goal"> Goal of the Project </a>
-To create an application that can be used to quickly create a custom README.md for any type of project.
+Create a simple e-commerce database using Sequelize.
 # <a name="Story"> Story of the Project </a>
-As a developer, I want a README generator so that I can quickly create a professional README for a new project.
+As a manager at an internet retail company, I want a back end for my e-commerce website that uses the latest technologies so that my company can compete with other e-commerce companies.
 # <a name="Description"> Description of the Project </a>
-An application for the creation of custom README files for any project. You have the ability to chose between a variaty of sections to best showcase your site/app.
+An E-Commerce back end application that allows for the interaction with the store's inventory database.
 # <a name="Installation"> Install Instructions </a>
 Run a terminal window within the project file, and write the following command: "npm install" or "npm i".
-# <a name="License"> Project License </a>
-This project does not have a license.
 # <a name="Usage"> Usage Instructions </a>
-Read the instructions at the beginning for the best results for your readme. Then you can simply answer the prompts based on what you want to add to your file.
+Follow the walkthrough videos under the Preview Section to interact with the database in the desired way.
 # <a name="Criteria"> Criteria For Completion </a>
-1. When I run the application, a list of prompts appear to build a custom README.md
-2. The prompts answers appear under the correct sections.
-3. The user has the ability to add a license to the file, withh a badge at the top of the file.
-4. A questions section appears with the user email and github link.
-5. Sections must be accessable from a table of contents.
+1. The application connects, through Sequelize, to the company's database.
+2. Commands are available to seed test data to the database.
+3. The Application allows the user to interact, through Insomnia, with three tables:
+
+    I. Category Table.
+    
+    II. Product Table.
+    
+    III. Tag Table.
+    
+4. The Application allows for the following actions:
+5. The return data, if any, comes in JSON format.
+    - Get all entries.
+    - Get entry by id.
+    - Post a new entry.
+    - Put/Update an entry.
+    - Delete an entry by id.
 # <a name="Completion"> Steps For Completion </a>
-- Added some example questions.
-- Added the code for the creation of the file.
-- Linked the two previous aspects to populate the file with the user's answers.
-- Fixed the file layout.
-   - Added proper questions.
-   - Built the table of contents
-   - Added the sections with the user's answers.
-- Added the logic for the lisence.
-- Documentation
-- Created the video.
-# <a name="Tests"> App Tests </a>
-I have not provided any tests.
+- Added the provided starter code.
+- Created the 4 different tables
+ - Category
+ - Product
+ - ProductTag
+ - Tag
+- Converted the connection to Sequelize.
+- Added code to the different routes.
+- Added documentation.
+  - Added comments.
+  - Created walkthrough videos.
+  - Created the README.md
 # <a name="Preview"> Site/App Preview </a>
-The video can be found in the project folder under "App Demo".
-The file is too big to add to this readme.
-# <a name="Contribution"> Contribution Guidelines </a>
-This project is not currently open to contributions.
+Database Creation/Seeding
+
+
+https://user-images.githubusercontent.com/55503463/159203571-6f0c3bc1-709f-44f2-a2a6-6be4724f8729.mp4
+
+Interacting with: Category Table
+
+
+https://user-images.githubusercontent.com/55503463/159204096-dbc5d711-54c5-4c0d-b638-599d674c7ce1.mp4
+
+
+Interacting with: Product Table
+
+
+https://user-images.githubusercontent.com/55503463/159204108-069a2592-8e44-4a1b-8e81-699ae587c153.mp4
+
+
+Interacting with: Tag Table
+
+
+https://user-images.githubusercontent.com/55503463/159204124-13be29a6-0720-48a5-95c0-d56a1d66a009.mp4
+
 # <a name="Questions"> Questions </a>
-  If you have any questions, feel free to contact me through GitHub at 
+  If you have any questions, feel free to contact me through GitHub at
   [nicolasrojas-ceng](https://github.com/nicolasrojas-ceng). <br>
   Alternatively, you can contact me at my email: [lucanrojas@gmail.com](mailto:lucanrojas@gmail.com)
-
-  NOTE: This README.md was created with this application.
