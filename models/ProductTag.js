@@ -1,9 +1,13 @@
+//Import modules.
 const { Model, DataTypes } = require('sequelize');
 
+//Import our database connection from config.js
 const sequelize = require('../config/connection');
 
+//Initialize ProductTag model by extending off Sequelize's Model class.
 class ProductTag extends Model {}
 
+//Creates the table.
 ProductTag.init(
   {
     id: {
@@ -36,4 +40,5 @@ ProductTag.init(
   }
 );
 
+//Export the routes.
 module.exports = ProductTag;
